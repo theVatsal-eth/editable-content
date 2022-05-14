@@ -4,6 +4,14 @@
 
 @layer base {
   body {
-    @apply bg-[#06202a] text-gray-300;
+    @apply bg-gradient-to-r from-cyan-500 to-blue-500 text-white;
+  }
+}
+
+@layer utilities {
+  .highlight {
+    background: #fff;
+    color: #000;
+    box-shadow: 1px 1px 5px #fff
   }
 }
